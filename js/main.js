@@ -51,3 +51,12 @@ function Ejercicio03(){
         console.log((i+1));
     }
 }
+
+function primeraEntrega(){  
+    alert("Abriendo primera entrega");
+    
+}
+
+function Ejercicio05(){
+    alert("El ejercicio todavía no está hecho.");
+}

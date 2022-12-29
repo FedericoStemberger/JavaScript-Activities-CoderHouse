@@ -1,4 +1,3 @@
-//
 function Actividad01(){
     console.clear();
     let numero = prompt("Ingrese un numero:");
