@@ -11,27 +11,47 @@
     <h1>ACTIVIDADES EXTRA DE LA CLASE 09</h1>
     <h2>ACTIVIDAD 01</h2>
     <h5>CONSIGNA:</h5>
-    <p></p>
-    <button onclick="Actividad01()">Empezar actividad</button>
+    <p>Incluir un botón con el ID ‘btnNucleo’ manipulando el DOM. Luego, escuchar el evento click sobre el botón generado, asegurando que la función manejadora dispare una salida a elección en el HTML, cuando se presione el elemento.</p>
+    <button onclick="Actividad01()" id="act1">Empezar actividad</button>
+    <div id="contenedor1"></div>
     <br><br><br>
     <h2>ACTIVIDAD 02</h2>
     <h5>CONSIGNA:</h5>
-    <p></p>
+    <p>Declarar un array con nombres de asignatura, y generar un select, donde los values de las etiquetas option sean la posición de la asignatura en la colección.
+        Luego, escuchar el evento change sobre el select, asegurando que la función manejadora dispare una salida en el HTML, especificando el elemento escogido por el usuario.</p>
     <button onclick="Actividad02()">Empezar actividad</button>
+    <div id="contenedor2"></div>
     <br><br><br>
     <h2>ACTIVIDAD 03</h2>
     <h5>CONSIGNA:</h5>
-    <p></p>
+    <p>Crear un formulario que permita ingresar la información de un estudiante.
+        Luego, escuchar el evento submit sobre el form, capturando las entradas, e invocar un objeto Estudiante usando los valores ingresados, y asociar la instancia a un array de estudiantes.
+        Por último, disparar una salida en el HTML, a modo de confirmación de los datos registrados.</p>
     <button onclick="Actividad03()">Empezar actividad</button>
+    <br/><br/>
+    <form>
+        <label>Nombre</label><br/>
+        <input placeholder="Marcelo"><br/>
+        <label>Apellido</label><br/>
+        <input placeholder="Duarte"><br/>
+        <label>Año</label><br/>
+        <input placeholder="5°"><br/>
+        <label>Division</label><br/>
+        <input placeholder="A"><br/><br/>
+        <button type="submit" id="registrar">Registrar</button>
+
+    </form>
     <br><br><br>
     <h2>ACTIVIDAD 04</h2>
     <h5>CONSIGNA:</h5>
-    <p></p>
+    <p>Usando el array de estudiantes creado en la actividad 3, iterar la colección creando una etiqueta div, cuya estructura interna detalle la información del estudiante, y contenga un botón ‘Seleccionar’, agregando cada estructura al body.
+        Luego, detectar el click sobre el botón, especificando al usuario los datos del alumno seleccionado.</p>
     <button onclick="Actividad04()">Empezar actividad</button>
     <br><br><br>
     <h2>ACTIVIDAD 05</h2>
     <h5>CONSIGNA:</h5>
-    <p></p>
+    <p>Usando de base la interfaz generada en la actividad 4, añadir un nuevo botòn ‘Suspender’ por cada estudiante.
+        Luego, detectar el click sobre el botón, asegurando que la función manejadora identifique el objeto estudiante seleccionado, y llame a un método suspender(), disparando una salida en el HTML confirmando la suspensión del estudiante.</p>
     <button onclick="Actividad05()">Empezar actividad</button>
     <br><br><br>
     <a href="../index.html">Volver</a>
